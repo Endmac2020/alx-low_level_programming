@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - c program that prints exactly with puts function
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  **/
 int main(void)
 {
