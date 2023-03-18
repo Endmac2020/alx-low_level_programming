@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE g++ -s -main=100-intel
+gcc  -s-masm=intel $CFILE
