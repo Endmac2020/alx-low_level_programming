@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /*
- * main: c program that prints lowercase alphabet
+ * main - Entry point
  *
  * Return:always 0 (success)
  */
 
-int main(void)
+int(main)
 {
 	char i;
 
