@@ -4,7 +4,7 @@
  * main - Entry point
  * _putchar: print the alphabet  putchar
  *
- *  Return: 0 correct
+ *  Return: 0 success
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n');
+	_putchar("\n");
 	return (0);
 
 }
