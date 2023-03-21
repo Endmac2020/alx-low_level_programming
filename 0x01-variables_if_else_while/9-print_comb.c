@@ -3,20 +3,23 @@
 /*
  * main - main function
  *
- * Return: always 0 
+ * Return: always 0 (correct)
  */
 
 int (main)
+
 {
 	int i;
+
 	for (i = 0 ; i < 10 ; i++)
 
 		if (i == 9)
-			puchar(i + '0');
+			putchar(i + '0');
 		else
 
 		       putchar(i + '0');
-		       putchar(',')
+		       putchar(',');
 		       putchar(' ');
-}	
-        return (0);
+		       return (0);
+
+}	 
