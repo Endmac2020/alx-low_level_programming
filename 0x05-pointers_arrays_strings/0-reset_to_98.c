@@ -3,6 +3,8 @@
 
 /* main - update the value of n
  *
+ * @n: value to be updated is 98
+ *
  * Return: always 0 correct
  */
 
@@ -10,12 +12,7 @@ void reset_to_98(int *n)
 
 {
 	int n;
-	int reset;
 
-	        n = 402;
-		printf("n=%d\n", n);
-		reset to 98(&n);
-		printf("n=%d\n", n);
-		return (0);
+	*n = 98;
 
 }
