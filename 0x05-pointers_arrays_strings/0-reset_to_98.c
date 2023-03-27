@@ -9,9 +9,9 @@ int main(void)
 {
 	int n;
 
-	        n = 110;
+	        n = 402;
 		printf("n=%d\n", n);
-		reset to 98(&n);
+		reset_to_98(&n);
 		printf("n=%d\n", n);
 		return (0);
 
