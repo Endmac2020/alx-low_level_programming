@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - print swap int
- * swap_int: swaps the values of two integers
- * @a: int a
- * @b: int b
+ * swap_int: swaps the  values of a and b
+ * @a: first int to be used
+ * @b: second int to be used
  *
  * Return: always 0
  */
