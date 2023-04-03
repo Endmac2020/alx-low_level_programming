@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /*
  * main - main function
@@ -11,15 +13,17 @@ int (main)
 {
 	int i;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = '0'; i < '9'; i++)
 
-		if (i == 9)
+		if (i != '9')
 			putchar(i + '0');
 		else
+		{
 
 		       putchar(i + '0');
 		       putchar(',');
-		       putchar(' ');
+		      putchar(' ');
+		}  
 		       return (0);
 
 }	 
